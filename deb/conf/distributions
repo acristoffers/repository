@@ -1,0 +1,44 @@
+Codename: jammy
+Components: main
+Architectures: arm64 amd64
+SignWith: E18472E83DD7E6B8
+
+Codename: kinetic
+Components: main
+Architectures: arm64 amd64
+SignWith: E18472E83DD7E6B8
+
+Codename: lunar
+Components: main
+Architectures: arm64 amd64
+SignWith: E18472E83DD7E6B8
+
+Codename: mantic
+Components: main
+Architectures: arm64 amd64
+SignWith: E18472E83DD7E6B8
+
+Codename: noble
+Components: main
+Architectures: arm64 amd64
+SignWith: E18472E83DD7E6B8
+
+Codename: oracular
+Components: main
+Architectures: arm64 amd64
+SignWith: E18472E83DD7E6B8
+
+Codename: plucky
+Components: main
+Architectures: arm64 amd64
+SignWith: E18472E83DD7E6B8
+
+Codename: questing
+Components: main
+Architectures: arm64 amd64
+SignWith: E18472E83DD7E6B8
+
+Codename: resolute
+Components: main
+Architectures: arm64 amd64
+SignWith: E18472E83DD7E6B8

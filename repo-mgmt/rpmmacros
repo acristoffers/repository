@@ -1,0 +1,8 @@
+# Loaded with `rpmsign --load=...` (NOT --macros, which replaces rpm's default
+# macro path and drops /usr/lib/rpm/macros). Works with rpm 4.x and 6.x.
+%_openpgp_sign gpg
+%_openpgp_sign_id E18472E83DD7E6B8
+%_gpg_name E18472E83DD7E6B8
+%_gpg_path /home/alan/.local/share/gnupg
+%__gpg %(command -v gpg2 || command -v gpg)
+%_gpg_sign_cmd_extra_args --batch

@@ -17,7 +17,7 @@ contents:
     dst: /etc/apt/sources.list.d/esousa.sources
     file_info:
         mode: 0644
-  - src: pubkey.asc
+  - src: pubkey.gpg
     dst: /usr/share/keyrings/esousa-keyring.gpg
     file_info:
         mode: 0644

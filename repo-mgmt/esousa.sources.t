@@ -1,6 +1,6 @@
 Types: deb
 URIs: http://acristoffers.github.com/repository/deb
-Suites: noble
+Suites: ${CODENAME}
 Components: main
 Signed-By:  -----BEGIN PGP PUBLIC KEY BLOCK-----
 mQINBFLHIVYBEACvNrYMpI6XpSJ6zYFuu1dyQkeTgwCbJ6WbWnFoJTUV+a/KKgRy

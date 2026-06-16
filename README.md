@@ -7,6 +7,6 @@ sudo dnf install https://acristoffers.github.io/repository/rpm/esousa-repo-1.0.0
 # Ubuntu
 
 ```bash
-curl -Lo /tmp/esousa-repo_1.0.0_noarch.deb https://acristoffers.github.io/repository/esousa-repo_1.0.0_noarch.deb
-sudo apt install /tmp/esousa-repo_1.0.0_noarch.deb
+curl -Lo /tmp/esousa-repo.deb https://acristoffers.github.io/repository/repo-mgmt/ubuntu/esousa-repo_1.0.0-$(grep UBUNTU_CODENAME /etc/os-release | cut -d= -f2)_noarch.deb
+sudo apt install /tmp/esousa-repo.deb
 ```

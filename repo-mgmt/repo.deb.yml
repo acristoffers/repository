@@ -21,3 +21,5 @@ contents:
     dst: /usr/share/keyrings/esousa-keyring.gpg
     file_info:
         mode: 0644
+depends:
+  - apt-transport-https

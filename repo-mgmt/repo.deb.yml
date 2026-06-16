@@ -2,7 +2,7 @@
 # vim: set ts=2 sw=2 tw=0 fo=cnqoj
 
 name: "esousa-repo"
-arch: noarch
+arch: all
 platform: "linux"
 version: "1.0.0"
 section: "default"

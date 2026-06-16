@@ -1,0 +1,6 @@
+[esousa]
+name=esousa-personal
+baseurl=https://acristoffers.github.io/repository/rpm
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-esousa

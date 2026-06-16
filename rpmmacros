@@ -1,0 +1,10 @@
+%_signature gpg
+%_gpg_name E18472E83DD7E6B8
+%_gpg_path /home/alan/.local/share/gnupg
+%__gpg /home/alan/.nix-profile/bin/gpg2
+
+%__gpg_sign_cmd %{__gpg} --batch --no-verbose --no-armor --no-secmem-warning \
+    %{?_gpg_digest_algo:--digest-algo %{_gpg_digest_algo}} \
+    %{?_gpg_sign_cmd_extra_args} \
+    -u %{_gpg_name} -sbo %{__signature_filename} \
+    %{__plaintext_filename:-- %{__plaintext_filename}}

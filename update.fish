@@ -36,5 +36,6 @@ nix run nixpkgs#createrepo_c -- rpm
 pushd rpm/repodata
 gpg --default-key E18472E83DD7E6B8 --detach-sign --armor repomd.xml
 popd
+nix shell nixpkgs#gnupg nixpkgs#rpm -c bash -c "sudo rpm --import pubkey.asc; rpmsign --macros=rpmmacros --resign rpm/*.rpm"
 
 rm -rf deb-tmp

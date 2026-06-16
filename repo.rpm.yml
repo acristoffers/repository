@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://nfpm.goreleaser.com/schema.json
+# vim: set ts=2 sw=2 tw=0 fo=cnqoj
+
+name: "esousa-repo"
+arch: "${ARCH}"
+platform: "linux"
+version: "1.0.0"
+section: "default"
+priority: "extra"
+maintainer: "Álan e Sousa <alan@esousa.me>"
+description: "My personal repository configuration"
+homepage: "https://github.com/acristoffers/repository"
+license: "MPL"
+release: "1${DIST_TAG}"
+contents:
+  - src: esousa.repo
+    dst: /etc/yum.repos.d/esousa.repo
+    file_info:
+        mode: 0644
+  - src: pubkey.asc
+    dst: /etc/pki/rpm-gpg/RPM-GPG-KEY-esousa
+    file_info:
+        mode: 0644

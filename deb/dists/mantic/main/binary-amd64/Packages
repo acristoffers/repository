@@ -1,0 +1,154 @@
+Package: cgen
+Version: 1.0.5-1
+Architecture: amd64
+Maintainer: Álan e Sousa <alan@esousa.me>
+Installed-Size: 6805
+Homepage: https://github.com/acristoffers/cgen
+Priority: extra
+Section: default
+Filename: pool/main/c/cgen/cgen_1.0.5-1_amd64.deb
+Size: 2732440
+SHA512: dbe3d3cd3a609e0471d674c69b19b1f2623dab17e3592837fafcfac097edf66d965f5e2d08428e26ded874b048df340aac075dfb1a125c0a03ba45da3ccc3f03
+SHA256: 63e442475a3229c59454c1f14eb8ad71f4d5538317aef6a7c42c719f2e818b3b
+SHA1: 9e8edb9615618e8e4eab0869b57074142b99d953
+MD5sum: df9e13327571fbd559321f7594498374
+Description: Generate shell completions for Fish, Bash, and ZSH and man-pages from a single YAML file.
+
+Package: dbkp
+Version: 2.2.2-1
+Architecture: amd64
+Maintainer: Álan e Sousa <alan@esousa.me>
+Installed-Size: 5681
+Homepage: https://github.com/acristoffers/dbkp
+Priority: extra
+Section: default
+Filename: pool/main/d/dbkp/dbkp_2.2.2-1_amd64.deb
+Size: 2422718
+SHA512: 4b658c7859dd4a19adf91e396a2eec816def5325ff86d6afaa385472d0d72d74a621c63ca0aeb7f3b54ab979dd90e678fb60a4faba606ea3fc8939ce513e915a
+SHA256: b5af7234b9e85854163ea36b7864a0ef6cefe90c336514240a0274deea6aa676
+SHA1: 38e1daf5e7e5c5926aefc899e45bb8151a705647
+MD5sum: 79850076437914eb8a634cdf62b66b8d
+Description: dotfiles backup and restore
+
+Package: ledger-beautifier
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Álan Crístoffer <alan@esousa.me>
+Installed-Size: 1179
+Depends: libc6 (>= 2.34)
+Priority: optional
+Section: utils
+Filename: pool/main/l/ledger-beautifier/ledger-beautifier_1.0.0-1_amd64.deb
+Size: 496732
+SHA512: 93efd0fd0b87ed603bfeab1275e41bf524a3a04e4a2bf533d636114b3ede270668ac3d33bc6566d48308742f7d5a3e8f88bd73687a122cace818db244c51d345
+SHA256: 0002c79ba68ccb50b30b4873a77b127eb5d1b8e7c6057d0c74a8a51bed4d8dbe
+SHA1: 493265473b9dc77e7e8b3e49136971e76599ed51
+MD5sum: 7ea722b5a65210576ba10b46f15d72cf
+Description: A beautifier for ledger files
+ A beautifier for ledger files
+
+Package: libvoid
+Version: 1.0.2-1
+Architecture: amd64
+Maintainer: Álan Crístoffer <acristoffers@startmail.com>
+Installed-Size: 305
+Depends: libc6 (>= 2.34)
+Priority: optional
+Section: libs
+Filename: pool/main/libv/libvoid/libvoid_1.0.2-1_amd64.deb
+Size: 129648
+SHA512: 4c2fc673faa636eeed5900dade39decc6ed8173dcfb3c7449d62cbf948ba4de767f68bf45cd1d05f8e27c74b20239cb48b94e30947df05115c3711ceba961acb
+SHA256: 0690db8c180589b410908206ea68da03e04b79fe14a3f3bd476abe57d47d1d84
+SHA1: f27bae88a807654a720210008084c0f85818d212
+MD5sum: d9c00dcaea8f03fd02cdd5d18508eae4
+Description: Encrypted file store.
+
+Package: matlab-beautifier
+Version: 1.0.3-1
+Architecture: amd64
+Maintainer: Álan Crístoffer <alan@esousa.me>
+Installed-Size: 1559
+Depends: libc6 (>= 2.34)
+Priority: optional
+Section: utils
+Filename: pool/main/m/matlab-beautifier/matlab-beautifier_1.0.3-1_amd64.deb
+Size: 544400
+SHA512: aceb3890657ba02f05866d2cfcc8b4207745d6911b4d54963fa89f25186915848c0fdaa930d55bda2d835a292b36ceb04e162ef073c665c6fabb40a07119ab48
+SHA256: d00d78ec0b327327d7746861c37573ff79111e483b942dae0f6cb8f200b7f337
+SHA1: acfe141bb300a4a19347c5d7b8bc44e60131b43f
+MD5sum: 3f09639a3279aa332c7f8593ceb4925d
+Description: A MATLAB source beautifier
+ A beautifier for ledger files
+
+Package: tmux-tui
+Version: 1.1.0-1
+Architecture: amd64
+Maintainer: Álan e Sousa <alan@esousa.me>
+Installed-Size: 4125
+Homepage: https://github.com/acristoffers/tmux-tui
+Priority: extra
+Section: default
+Filename: pool/main/t/tmux-tui/tmux-tui_1.1.0-1_amd64.deb
+Size: 1705120
+SHA512: 99014a7fa455c2900b03708905369801f563f05d9fc3df3226cbd9c496cb3987bda4a0c8143401c61e04dc0c7908f2dedf61b1ec498547f436a85ee5f7c850e5
+SHA256: 217a9980941c814fbcbd2f038b9e2ff77cc3f335e0b4a8834c003ffb9ee91c84
+SHA1: d399a631bd6c783649c8c343ede93b0020b83b28
+MD5sum: f21ee1c55e4f719a36a9881c2ef15770
+Description: Manages tmux sessions, windows and panes in a Terminal User Interface inspired by lazygit.
+
+Package: void-cli
+Version: 1.0.2-1
+Architecture: amd64
+Maintainer: Álan Crístoffer <acristoffers@startmail.com>
+Installed-Size: 2840
+Depends: libc6 (>= 2.34)
+Priority: optional
+Section: utils
+Filename: pool/main/v/void-cli/void-cli_1.0.2-1_amd64.deb
+Size: 832060
+SHA512: 4a642d9876b5c39f81cf3a07e719ece96ae86d3a2a69e4968e65dbc8007391e307529e0466d93baa05cd902112d72e56c788ad579a3e63adff6691bf81c64efa
+SHA256: 396a95eb38c470243c058ae152c48290784f2542a892666f33d337bdb365ccbe
+SHA1: 1ee6442e73a0fb9a9362252085765ab42f1ee2eb
+MD5sum: 2388aa47952b372d92cca4ee551d2120
+Description: Encrypted file store.
+ Its goal is to provide a filesystem-like way of storing encrypted files. You
+ can add (encrypt), get (unencrypt) and manage (list, search, remove and move)
+ files and folders. It also allows to set/get store-only metadata.
+
+Package: void-gui
+Version: 1.0.2-1
+Architecture: amd64
+Maintainer: Álan Crístoffer <acristoffers@startmail.com>
+Installed-Size: 4357
+Depends: libadwaita-1-0 (>= 1.5~beta), libavcodec62 (>= 7:8.0.1), libavdevice62 (>= 7:8.0.1), libavformat62 (>= 7:8.0.1), libavutil60 (>= 7:8.0.1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.9.2), libswscale9 (>= 7:8.0.1)
+Priority: optional
+Section: utils
+Filename: pool/main/v/void-gui/void-gui_1.0.2-1_amd64.deb
+Size: 1448720
+SHA512: b7dc39b6a7b6f98f026ca4048ef1f6720ded056cd8e04f0ceb2852ddb5c69600429bdb78d8b446b3d9e320c1ae937e8c80ecc7450c1c8b51b9c52acb1aac1093
+SHA256: e55cb72cdabe88efe5bdf167aabdcf9c2de296635281206280cee676cde387f8
+SHA1: a9ee0008c2d0fa6731405d6ae75aee195aae1c28
+MD5sum: b1970ab589b2edab661ce0235a05a032
+Description: Encrypted file store.
+ The graphical interface is a GNOME/Adwaita application that provides a full
+ file manager experience for your vault, including a file grid with thumbnail
+ previews, folder tree sidebar, breadcrumb path bar, drag and drop, in-app
+ viewers for images and text files, and dark/light/system theme support.
+
+Package: wbproto-beautifier
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Álan Crístoffer <alan@esousa.me>
+Installed-Size: 1148
+Depends: libc6 (>= 2.39)
+Priority: optional
+Section: utils
+Filename: pool/main/w/wbproto-beautifier/wbproto-beautifier_1.0.0-1_amd64.deb
+Size: 497820
+SHA512: 1a4909bb76b6f2c9d451bae4346d8b73a3835afcd30f57e5068548035d84488d00a8df69af7b7f6c7640285ce72d96d13411e529868188d08cf72e368cec8229
+SHA256: 8ecf6046b78e412f8439b77d4c52cbb033eaddb5ca7528a39992266c7e5019e2
+SHA1: b7a3ae119fde95ef8dfaf2797519b6084a347569
+MD5sum: 2635bb828fb7c21d3fd25fc9c4ae0df4
+Description: A beautifier for Webots Proto files
+ A beautifier for ledger files
+

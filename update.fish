@@ -7,8 +7,8 @@ function build-go
     pushd src
     make pack
     popd
-    find -name "*.rpm" -exec cp {} rpm/ \;
-    find -name "*.deb" -exec cp {} deb-tmp/ \;
+    find src -name "*.rpm" -exec cp {} rpm/ \;
+    find src -name "*.deb" -exec cp {} deb-tmp/ \;
     rm -rf src
 end
 

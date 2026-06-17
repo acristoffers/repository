@@ -1,5 +1,5 @@
 [esousa]
-name=esousa-personal
+name=Álan e Sousa's personal repository
 baseurl=https://acristoffers.github.io/repository/rpm
 enabled=1
 gpgcheck=1

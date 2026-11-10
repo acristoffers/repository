@@ -48,19 +48,19 @@ Description: A beautifier for ledger files
  A beautifier for ledger files
 
 Package: libvoid
-Version: 1.0.4-1
+Version: 1.0.5-1
 Architecture: arm64
 Maintainer: Álan Crístoffer <acristoffers@startmail.com>
 Installed-Size: 69
 Depends: libc6 (>= 2.17)
 Priority: optional
 Section: libs
-Filename: pool/main/libv/libvoid/libvoid_1.0.4-1_arm64.deb
-Size: 2828
-SHA512: 42f7306a57da450f484ce65557e95f560dc9bd9de972d064f4be951223f460e034a13f0396506d86dd686906032122b46a959daa6fbb8e5595fb8651332eccf5
-SHA256: 5a90476eef34c81a8fb90eb2901dc63e14b41005891a6755b19b0da494cee461
-SHA1: 3e21e74b456c0d86a209c27ab46e80f0fc94b3e0
-MD5sum: d558fbae6126df51ca616648b1637d9b
+Filename: pool/main/libv/libvoid/libvoid_1.0.5-1_arm64.deb
+Size: 2824
+SHA512: 9899084985309f27af3405097ad486f4440f964d8de68c3079eb9dff526156af95b24a6f4e7b498c3e87950e8e3c26f8ef9c84a02fe2ac446e04d8c1f36cbe8b
+SHA256: bf71047ecf5c41baf931be59b9d8208f8d4671c7aaa4136e98507a0ad90c7814
+SHA1: e9bcd910287f1eb4bc2a04468dfdcf9a15fc875f
+MD5sum: 04b7cf855594378336344bfcfa8c322c
 Description: Encrypted file store.
 
 Package: matlab-beautifier
@@ -97,38 +97,38 @@ MD5sum: 86baf71b7d8966657016ef8cde0510ea
 Description: Manages tmux sessions, windows and panes in a Terminal User Interface inspired by lazygit.
 
 Package: void-cli
-Version: 1.0.4-1
+Version: 1.0.5-1
 Architecture: arm64
 Maintainer: Álan Crístoffer <acristoffers@startmail.com>
-Installed-Size: 2512
+Installed-Size: 2384
 Depends: libc6 (>= 2.34)
 Priority: optional
 Section: utils
-Filename: pool/main/v/void-cli/void-cli_1.0.4-1_arm64.deb
-Size: 712784
-SHA512: cf984e7b1ea5a0bc907d4c296b5d04a2227d2af176a662dd138eda63b808cf3946288bc71c7c5f844d300895d38bbfad10dd69ffb0c0278fcadaddd93a2c9447
-SHA256: 99ff71dbe8919af4434c389d2238dd45233c12c51b2cf13297cf7a4437fb1657
-SHA1: c8366640ff795d85675490de1202dd782687da93
-MD5sum: b13e53c7b1f6c085bebdce9930fc6f7b
+Filename: pool/main/v/void-cli/void-cli_1.0.5-1_arm64.deb
+Size: 691332
+SHA512: 214873988ae6f6b1b5593422023d00fe4a0cfda3413818a3eb8d07b1cb518e57d6b8d49091c25d00e7fbf0c37c443c6b39707956b0d662bde5d99ac8554a6b0a
+SHA256: 33030d0442322b262a3d9e4d1a4907d82fabe28f376572f14932edabbe5b47f5
+SHA1: 68c6e6236e6d3ea10cb388da2aabd91e832ec193
+MD5sum: 260d6d0d6261dc73272d2a3a57f4ef0b
 Description: Encrypted file store.
  Its goal is to provide a filesystem-like way of storing encrypted files. You
  can add (encrypt), get (unencrypt) and manage (list, search, remove and move)
  files and folders. It also allows to set/get store-only metadata.
 
 Package: void-gui
-Version: 1.0.4-1
+Version: 1.0.5-1
 Architecture: arm64
 Maintainer: Álan Crístoffer <acristoffers@startmail.com>
-Installed-Size: 4025
+Installed-Size: 3961
 Depends: libadwaita-1-0 (>= 1.5~beta), libavcodec62 (>= 7:8.0.1), libavdevice62 (>= 7:8.0.1), libavformat62 (>= 7:8.0.1), libavutil60 (>= 7:8.0.1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.54.0), libgtk-4-1 (>= 4.9.2), libswscale9 (>= 7:8.0.1)
 Priority: optional
 Section: utils
-Filename: pool/main/v/void-gui/void-gui_1.0.4-1_arm64.deb
-Size: 1296636
-SHA512: db57e70d7ab6b692923c9071456f8ca4f73b5d4d9ddc6b23a5229a59194275408be11fa6f25419dc387ee52bf57b44af67c7642eb5c910ff441156f3f2d37503
-SHA256: 47ec6517198884a34abca09505372d27b7306b0da693e3d01633489107678df0
-SHA1: 38c3397cb09bc8e18b9881cc989bddaf72a6c69c
-MD5sum: 0d4b7cf1bf5fef411b10b45d4982c162
+Filename: pool/main/v/void-gui/void-gui_1.0.5-1_arm64.deb
+Size: 1274104
+SHA512: 252c2884d7cc557a15f2fc6ca16a277a816d1df7c89d5df7aea083ca593f8acf6ce06b392bc61bcbd3245131cec7af7abb601224089de00ca0d5ca1e700f0145
+SHA256: e9b6c4c2822957c81a138a5eb3c6a2ae257aed3da3debfb2dc9f560421a21dbb
+SHA1: 1b605f9f538208650e4e8a86b35c4d163b001f6e
+MD5sum: 9d6a341a0a3f5858c3b36e68b7ed17e1
 Description: Encrypted file store.
  The graphical interface is a GNOME/Adwaita application that provides a full
  file manager experience for your vault, including a file grid with thumbnail

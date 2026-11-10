@@ -16,7 +16,7 @@ build-go cgen
 build-go dbkp
 build-go tmux-tui
 
-for repo in void-rs ledger-formatter matlab-beautifier void-rs wbproto-beautifier
+for repo in void-rs ledger-formatter matlab-beautifier wbproto-beautifier
     pushd deb-tmp
     curl -sL https://api.github.com/repos/acristoffers/$repo/releases/latest | jq -r '.assets[] | select(.name | match("deb$")) | .browser_download_url' | xargs -n1 wget -c
     popd

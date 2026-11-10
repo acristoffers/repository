@@ -42,3 +42,8 @@ Codename: resolute
 Components: main
 Architectures: arm64 amd64
 SignWith: E18472E83DD7E6B8
+
+Codename: stonking
+Components: main
+Architectures: arm64 amd64
+SignWith: E18472E83DD7E6B8

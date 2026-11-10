@@ -1,3 +1,35 @@
+Package: cgen
+Version: 1.0.6-1
+Architecture: arm64
+Maintainer: Álan e Sousa <alan@esousa.me>
+Installed-Size: 6497
+Homepage: https://github.com/acristoffers/cgen
+Priority: extra
+Section: default
+Filename: pool/main/c/cgen/cgen_1.0.6-1_arm64.deb
+Size: 2498420
+SHA512: b68cb1122f7b0a49aa0b7f5d4305c300d669933693b46f9ba8781b349b5eb692982f3c66f03a11d2a670894bece2080c02cf702f39d74b11293dd6d09d9adb9f
+SHA256: 03451ad815937edeefd8ac24edc005ce6de67a02acb6b6a3982ea9b345d1ac3e
+SHA1: abe1407dee70611cf1e789c978d31c7488770a3d
+MD5sum: 25fd60928254bde07cc79a4a0532148b
+Description: Generate shell completions for Fish, Bash, and ZSH and man-pages from a single YAML file.
+
+Package: dbkp
+Version: 2.2.3-1
+Architecture: arm64
+Maintainer: Álan e Sousa <alan@esousa.me>
+Installed-Size: 5345
+Homepage: https://github.com/acristoffers/dbkp
+Priority: extra
+Section: default
+Filename: pool/main/d/dbkp/dbkp_2.2.3-1_arm64.deb
+Size: 2214066
+SHA512: b76ee1c812e5d6352e33c28766893436db860c52b6c54d9f57b5fbb8d27713bcf3fd2d2c93958f9a073d29982213a0eb4335b631833f22f6ac080f260adde319
+SHA256: 3022d247c9405b6a0aad711a66bb9d918b24959124645d636b66695e4e0e6e54
+SHA1: 204725be9a5f840c9be77cc2d0b375e3a9935300
+MD5sum: 8d15d25f06818451e5f55a74a19b1798
+Description: dotfiles backup and restore
+
 Package: ledger-beautifier
 Version: 1.0.1-1
 Architecture: arm64
@@ -47,6 +79,22 @@ SHA1: 56857f772a809fc3c80ae924e6ef33329c83e29c
 MD5sum: 571334e1d7c4bbe6f24ad0146d81a423
 Description: A MATLAB source beautifier
  A beautifier for ledger files
+
+Package: tmux-tui
+Version: 1.1.1-1
+Architecture: arm64
+Maintainer: Álan e Sousa <alan@esousa.me>
+Installed-Size: 4065
+Homepage: https://github.com/acristoffers/tmux-tui
+Priority: extra
+Section: default
+Filename: pool/main/t/tmux-tui/tmux-tui_1.1.1-1_arm64.deb
+Size: 1558532
+SHA512: 8c8ab8539dfa361f919ba0e11a678ded0f91ba24b41498b4c33c1557195de0d924ad108b25173ff69d7013c89baeaf9d76e031ba4923ef5b8f2f45ea6c6f1ea4
+SHA256: a7fb32dd9c7f6febad2418e818fbdddbb204f354f27fe6940e49b447b22859fb
+SHA1: 2e53d2b93de1d19481d7ebebcc434bd0471a88a5
+MD5sum: 86baf71b7d8966657016ef8cde0510ea
+Description: Manages tmux sessions, windows and panes in a Terminal User Interface inspired by lazygit.
 
 Package: void-cli
 Version: 1.0.4-1
